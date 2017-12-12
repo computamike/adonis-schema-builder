@@ -31,7 +31,7 @@ Use the [schema-builder GUI](agontuk.github.io/schema-designer) to design your s
 
 ### Importing the Schema
 
-Run `adonis schema:build <path to schema file>` to import the schema file and generate source files. You will be asked to confirm before overwriting any existing files.
+Run `adonis schema:build <path to schema file>` from the project root to import the schema file and generate source files. You will be asked to confirm before overwriting any existing files.
 
 ### Generated files
 
@@ -41,7 +41,7 @@ Run `adonis schema:build <path to schema file>` to import the schema file and ge
 
 ### Caveats
 
-- Link tables - link tables (tables that exist only to join other models) must be denoted with an underscore (i.e. posts_categories)
+- Link tables (tables that exist only to join other models) must be denoted with an underscore (i.e. post_category)
 
 ## Upcoming features
 
