@@ -5,11 +5,11 @@
 
 Build adonis migrations, factories and models with pre-configured relationships from Database Schema.
 
-Based on a [schema-builder for laravel](https://github.com/Agontuk/schema-builder) and using the same schema format as [schema-builder](agontuk.github.io/schema-designer).
+Based on a [schema-builder for laravel](https://github.com/Agontuk/schema-builder) and using the same schema format as [schema-designer](agontuk.github.io/schema-designer).
 
 ## Installation
 
-This package works with AdonisJS v4. In your project directory you'll need ace, fold and cli installed:
+This package works with AdonisJS v4. In your project directory you'll need [ace](https://github.com/adonisjs/ace), [fold](https://github.com/poppinss/adonis-fold) and [cli](https://github.com/adonisjs/adonis-cli) installed:
 
 ```
 npm install --save @adonisjs/ace @adonisjs/cli @adonisjs/fold
@@ -27,7 +27,7 @@ You should now see the `schema:build` option when running `adonis` or `ace`.
 
 ### Creating a Schema
 
-Use the [schema-builder GUI](agontuk.github.io/schema-designer) to design your schema, and export as JSON. All of the table and column options in the schema builder are supported, although some column types might be substituted to supported Knex types.
+Use the [schema-builder GUI](agontuk.github.io/schema-designer) to design your schema, and export as JSON. All of the table and column options in the schema builder are supported, although some column types may be substituted to supported Knex types.
 
 ### Importing the Schema
 
